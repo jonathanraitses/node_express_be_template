@@ -1,0 +1,47 @@
+{
+    "name": "node_express_be_template",
+    "version": "1.0.0",
+    "description": "node and express backend template repository",
+    "main": "index.js",
+    "scripts": {
+        "test": "test"
+    },
+    "engines": {
+        "node": ">=16.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jonathanraitses/node_express_be_template.git"
+    },
+    "author": "Jonathan Raitses",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jonathanraitses/node_express_be_template/issues"
+    },
+    "homepage": "https://github.com/jonathanraitses/node_express_be_template#readme",
+    "dependencies": {
+        "commander": "^2.19.0",
+        "cors": "^2.8.4",
+        "dotenv": "6.0.0",
+        "express": "^4.16.2",
+        "faker": "^4.1.0",
+        "helmet": "^3.9.0",
+        "morgan": "^1.9.0",
+        "swagger-ui-express": "4.0.1",
+        "ts-node": "7.0.1",
+        "typescript": "^3.6.3",
+        "winston": "3.1.0"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.1",
+        "@types/dotenv": "^4.0.2",
+        "@types/express": "^4.0.39",
+        "@types/faker": "^4.1.2",
+        "@types/helmet": "0.0.41",
+        "@types/jest": "23.3.2",
+        "@types/morgan": "^1.7.35",
+        "@types/node": "^12.7.5",
+        "jest": "23.6.0",
+        "ts-jest": "^23.10.1"
+    }
+}
